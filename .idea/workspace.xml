@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="364d9bdf-873d-4a43-8021-64a3fd2458c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Galaxy/Planet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Galaxy/SolarSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Galaxy/Galactic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Spacefaring/StarTrek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Galaxy/Galaxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Galaxy/Galaxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SolarSystem/Planet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Galaxy/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Galaxy/Planet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Galaxy/SolarSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Galaxy/SolarSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Spacefaring/Spaceship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spacefaring/Spaceship.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +47,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"

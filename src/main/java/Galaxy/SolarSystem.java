@@ -2,7 +2,7 @@ package Galaxy;
 
 import java.util.List;
 
-public class SolarSystem implements Galaxy{
+public class SolarSystem implements Galactic {
     private List<Planet> planetList;
     private double size;
     private String name;
@@ -12,9 +12,18 @@ public class SolarSystem implements Galaxy{
         this.planetList = planetList;
     }
 
+    public void addPlanet(Planet planet){
+        this.planetList.add(planet);
+    }
 
     @Override
     public String description() {
-        return null;
+        StringBuilder sb = new StringBuilder();
+        sb.append("Solar System: ").append(name).append("\n");
+        for (Planet p : planetList) {
+            sb.append(p.description());
+        }
+
+        return sb.toString();
     }
 }

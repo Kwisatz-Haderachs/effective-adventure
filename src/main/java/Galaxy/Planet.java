@@ -1,8 +1,8 @@
 package Galaxy;
 
-public class Planet implements Galaxy{
+public class Planet implements Galactic {
     private double size;
-    private boolean habitable;
+    private double habitability;
     private String name;
     private planetType type;
 
@@ -21,12 +21,15 @@ public class Planet implements Galaxy{
         }
     }
 
-    public Planet(){
-
+    public Planet(String name, double size, double habitability, planetType type){
+        this.name = name;
+        this.size = size;
+        this.habitability = habitability;
+        this.type = type;
     }
 
     @Override
     public String description(){
-        return "";
+        return String.format("Planet: %s \nSize: %f\n, Habitability: %f.0\n Type: %s", name, size, habitability, type.getS());
     }
 }
