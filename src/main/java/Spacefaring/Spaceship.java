@@ -2,10 +2,10 @@ package Spacefaring;
 
 public interface Spaceship {
 
-    public enum StarshipClass{
+    enum StarshipClass{
         DESTROYER("Destroyer"),
         CRUISER("Cruiser"),
-        EXPLORATORY("Explorer"),
+        EXPLORATORY("Exploratory"),
         WARSHIP("Warship"),
         CORVETTE("Corvette"),
         BATTLECRUISER("Battlecruiser"),
@@ -16,10 +16,11 @@ public interface Spaceship {
         }
 
         StarshipClass(String s) {
+            this.s = s;
         }
     }
     public String printStatus();
-    public void navigate(String start, String end);
+    public void navigate(String end);
 
 
 }

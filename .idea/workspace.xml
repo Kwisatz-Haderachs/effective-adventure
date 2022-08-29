@@ -5,15 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="364d9bdf-873d-4a43-8021-64a3fd2458c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Galaxy/Galactic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Spacefaring/StarTrek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GalaxyTest/TestGalaxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GalaxyTest/TestPlanet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GalaxyTest/TestSolarSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestSpacefaring/TestStarTrek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Galaxy/Galaxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Galaxy/Galaxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Galaxy/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Galaxy/Planet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Galaxy/SolarSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Galaxy/SolarSystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Spacefaring/Spaceship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spacefaring/Spaceship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Spacefaring/StarTrek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spacefaring/StarTrek.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +28,16 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -40,7 +54,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Dte5NYa3kmL3o09gqv6jZh63R5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,11 +64,104 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/f2268397/Documents/Projects/Galaxy",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.TestGalaxy.addSys">
+    <configuration name="TestGalaxy.addSys" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Galaxy.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GalaxyTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GalaxyTest" />
+      <option name="MAIN_CLASS_NAME" value="GalaxyTest.TestGalaxy" />
+      <option name="METHOD_NAME" value="addSys" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestGalaxy.print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Galaxy.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GalaxyTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GalaxyTest" />
+      <option name="MAIN_CLASS_NAME" value="GalaxyTest.TestGalaxy" />
+      <option name="METHOD_NAME" value="print" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestPlanet.print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Galaxy.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GalaxyTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GalaxyTest" />
+      <option name="MAIN_CLASS_NAME" value="GalaxyTest.TestPlanet" />
+      <option name="METHOD_NAME" value="print" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSolarSystem.addPlanet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Galaxy.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GalaxyTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GalaxyTest" />
+      <option name="MAIN_CLASS_NAME" value="GalaxyTest.TestSolarSystem" />
+      <option name="METHOD_NAME" value="addPlanet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSolarSystem.testDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Galaxy.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GalaxyTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GalaxyTest" />
+      <option name="MAIN_CLASS_NAME" value="GalaxyTest.TestSolarSystem" />
+      <option name="METHOD_NAME" value="testDescription" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TestGalaxy.addSys" />
+        <item itemvalue="JUnit.TestGalaxy.print" />
+        <item itemvalue="JUnit.TestPlanet.print" />
+        <item itemvalue="JUnit.TestSolarSystem.testDescription" />
+        <item itemvalue="JUnit.TestSolarSystem.addPlanet" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

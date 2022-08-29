@@ -9,8 +9,8 @@ public class Planet implements Galactic {
     public enum planetType{
         GASEOUS("Gas Giant"),
         NEPTUNIAN("Neptunian"),
-        SUPEREARTH("super-Earth"),
-        TERRESTIAL("terrestial");
+        SUPEREARTH("Super-Earth"),
+        TERRESTIAL("Terrestrial");
         private final String s;
         planetType(String s){
             this.s = s;
@@ -30,6 +30,6 @@ public class Planet implements Galactic {
 
     @Override
     public String description(){
-        return String.format("Planet: %s \nSize: %f\n, Habitability: %f.0\n Type: %s", name, size, habitability, type.getS());
+        return String.format("Planet: %s\nSize: %.0f\nHabitability: %.0f\nType: %s\n", name, size, habitability, type.getS());
     }
 }
