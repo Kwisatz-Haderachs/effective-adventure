@@ -13,7 +13,11 @@ public class Galaxy implements Galactic {
     public void addSystem(SolarSystem system){
         systems.add(system);
     }
-
+    public void addSolarSystems(List<SolarSystem> list){
+        for (SolarSystem s: list) {
+            addSystem(s);
+        }
+    }
     public List<SolarSystem> getSystems(){
         return systems;
     }

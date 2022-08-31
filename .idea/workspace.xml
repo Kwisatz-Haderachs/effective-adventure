@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="364d9bdf-873d-4a43-8021-64a3fd2458c6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GalaxyTest/TestGalaxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GalaxyTest/TestPlanet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/GalaxyTest/TestSolarSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestSpacefaring/TestStarTrek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Generator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/GeneratorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Application.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Galaxy/Galaxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Galaxy/Galaxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Galaxy/Planet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Galaxy/Planet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Galaxy/SolarSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Galaxy/SolarSystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spacefaring/Spaceship.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spacefaring/Spaceship.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Spacefaring/StarTrek.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Spacefaring/StarTrek.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,17 +53,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/f2268397/Documents/Projects/Galaxy",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/f2268397/Documents/Projects/Galaxy&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.TestGalaxy.addSys">
+}</component>
+  <component name="RunManager" selected="JUnit.GeneratorTest.randomPlanet">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Application" />
+      <module name="Galaxy.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeneratorTest.randomPlanet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Galaxy.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GeneratorTest" />
+      <option name="METHOD_NAME" value="randomPlanet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeneratorTest.randomString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Galaxy.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GeneratorTest" />
+      <option name="METHOD_NAME" value="randomString" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestGalaxy.addSys" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Galaxy.test" />
       <extension name="coverage">
@@ -104,61 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestPlanet.print" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Galaxy.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GalaxyTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="GalaxyTest" />
-      <option name="MAIN_CLASS_NAME" value="GalaxyTest.TestPlanet" />
-      <option name="METHOD_NAME" value="print" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSolarSystem.addPlanet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Galaxy.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GalaxyTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="GalaxyTest" />
-      <option name="MAIN_CLASS_NAME" value="GalaxyTest.TestSolarSystem" />
-      <option name="METHOD_NAME" value="addPlanet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSolarSystem.testDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Galaxy.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="GalaxyTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="GalaxyTest" />
-      <option name="MAIN_CLASS_NAME" value="GalaxyTest.TestSolarSystem" />
-      <option name="METHOD_NAME" value="testDescription" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GeneratorTest.randomPlanet" />
+        <item itemvalue="JUnit.GeneratorTest.randomString" />
+        <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.TestGalaxy.addSys" />
         <item itemvalue="JUnit.TestGalaxy.print" />
-        <item itemvalue="JUnit.TestPlanet.print" />
-        <item itemvalue="JUnit.TestSolarSystem.testDescription" />
-        <item itemvalue="JUnit.TestSolarSystem.addPlanet" />
       </list>
     </recent_temporary>
   </component>
